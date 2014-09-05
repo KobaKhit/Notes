@@ -9,7 +9,7 @@
 do `nohup COMMAND >> ~/FILEPATH`.  Ex.g., `nohup python ~/Shippy/myscript.py >> ~/myscript.out`. Redirecting output is optional. 
 + `crontab -l` - Show the cron jobs file
 + `crontab -e` - Edit the cron jobs file
-+ `scp -r [FILE or FOLDER] DESTINATION` - upload files to EC2 or download files from EC2. Ex.g., to upload a folder called Shippy to my EC2 instance I would do `scp -r ~/PATH/Shippy myec2:~/Shippy`. To download a folder from EC2 to my local machine `scp -r myec2:~/Shippy ~/Desktop/Shippy`
++ `scp -r [FILE or FOLDER] DESTINATION` - upload files to EC2 or download files from EC2. Ex.g., to upload a folder called Shippy to my EC2 instance execute `scp -r ~/PATH/Shippy myec2:~/Shippy` on your local machine. To download a folder from EC2 to my local machine execute `scp -r myec2:~/Shippy ~/Desktop/Shippy` on your local machine.
 
 ## Instructions
 ### Schedule python scripts with cron
