@@ -5,7 +5,7 @@
 + `readlink -f FILE` - Get full path of file
 + `ps -ef` -  Show running processes
 + `grep CRON /var/log/syslog` - Show the cron jobs log
-+ `nohup COMMAND` - Execute a command that wont stop after logging out the EC2. Stores output in`~/nohup.out`. To redirect output to a file
++ `nohup COMMAND` - Execute a command that wont stop after logging out the EC2. Stores output in`~/nohup.out` by default. To redirect output to a file
 do `nohup COMMAND >> ~/FILEPATH`.  Ex.g., `nohup python ~/Shippy/myscript.py >> ~/myscript.out`. Redirecting output is optional. 
 
 ### Crontab
