@@ -7,10 +7,9 @@
 + `grep CRON /var/log/syslog` - Show the cron jobs log
 + `nohup COMMAND` - Execute a command that wont stop after logging out the EC2. Stores output in`~/nohup.out` by default. To redirect output to a file
 do `nohup COMMAND >> ~/FILEPATH`.  Ex.g., `nohup python ~/Shippy/myscript.py >> ~/myscript.out`. Redirecting output is optional. 
-
-### Crontab
 + `crontab -l` - Show the cron jobs file
 + `crontab -e` - Edit the cron jobs file
++ scp -r [FILE or FOLDER] DESTINATION - upload files to EC2 or download files from EC2. Ex.g., to upload a folder called Shippy to my EC2 instance I would do `scp -r ~/PATH/Shippy myec2:~/Shippy`. To download a folder from EC2 to my local machine `scp -r myec2:~/Shippy ~/Desktop/Shippy`
 
 ## Instructions
 ### Schedule python scripts with cron
