@@ -2,7 +2,7 @@
 ##Commands
 ### Terminal
 #### Basic
-+ `mv FILE DESTINATION` - Moves a file to the DESTINATION folder. Can also be used to rename files like so `mv FILE NEWFILENAME`. Ex.g. `mv oldname.py newname.py`.
++ `mv FILE DESTINATION` - Moves a file to the DESTINATION folder. Can also be used to rename files like so `mv FILE NEWFILENAME`. Ex.g., `mv oldname.py newname.py`. [Hint](http://askubuntu.com/questions/214560/how-to-move-multiple-files-at-once-to-a-specific-destination-directory): to move multiple files do `mv -t DESTINATION file1 file2 file3`.
 + `chmod +x FILE` - Make a file executable (needed for cron to be able to execute scripts)
 + `readlink -f FILE` - Get full path of file
 + `ps -ef` -  Show running processes
