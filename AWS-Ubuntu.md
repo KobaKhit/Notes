@@ -1,4 +1,4 @@
-#Notes
+#AWS Ubuntu Notes
 ##Commands
 ### Terminal
 #### Basic
