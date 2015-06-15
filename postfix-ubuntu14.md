@@ -57,6 +57,7 @@ Configure postfix:
     sudo nano /etc/postfix/main.cf
     
 Below is my postfix configuration file `/etc/postfix/main.cf`. Make sure the General part in your file looks similar. I had to add `myhostname`,`relays_domains`,`mydomain`, and `inet_interfaces = all`.
+
     # See /usr/share/postfix/main.cf.dist for a commented, more complete version
 
 
