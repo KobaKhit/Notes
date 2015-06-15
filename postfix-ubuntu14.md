@@ -1,3 +1,16 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Configure Postfix on Ubuntu 14.04 ec2 instance](#configure-postfix-on-ubuntu-1404-ec2-instance)
+    - [Configure Godaddy settings](#configure-godaddy-settings)
+    - [Configure Ubuntu 14.04 server](#configure-ubuntu-1404-server)
+    - [Configure Postfix](#configure-postfix)
+    - [Troubleshooting](#troubleshooting)
+    - [Resources used](#resources-used)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Configure Postfix on Ubuntu 14.04 ec2 instance
 
 Prerequisites:
